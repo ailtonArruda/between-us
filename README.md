@@ -1,50 +1,40 @@
-<h1 align="center">NPS-NLW</h1>
-
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-diagrama">Diagrama</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
-</p>
+<h1 align="center">Valoriza</h1>
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 
- <img src="https://img.shields.io/static/v1?label=NLW&message=04&color=8257E5&labelColor=000000" alt="NLW 04" />
+  <img src="https://img.shields.io/static/v1?label=NLW&message=Together&color=8257E5&labelColor=000000" alt="NLW Together" />
 </p>
 
-<br>
+<p align="center">
+  <img alt="Preview" src="./.github/preview.png">
+</p>
 
 ## ✨ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [TypeScript](https://www.typescriptlang.org/)
-- [Ethereal-Email](https://ethereal.email/)
-- [TypeORM](https://typeorm.io/#/)
+- [Node.js](https://nodejs.org/en/)
+- [Typescript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/)
-- [Jest](https://jestjs.io/)
-- [SQL Editor Beekeeper Studio](https://www.beekeeperstudio.io/)
+- [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)
 
 ## 💻 Projeto
 
-O NPS-NLW é uma aplicação que consiste em calcular o NPS da empresa. Nele fazemos o cadastro de usuários, cadastro de pesquisas, envio de e-mail para os usuários responderem as pesquisas de satisfação e com isso podemos realizar o cálculo do NPS.
-
-Esse projeto foi desenvolvido durante a trilha de NodeJS, na quarta edição da NLW. Aprendemos conceitos sobre o que é um API, como iniciar um projeto utilizando Typescript e Express para gerenciamento das rotas, TypeORM para manipulação dos dados, testes automatizados e envio de e-mail.
-
-## 🔶 Diagrama
-
-<img src="public/diagrama.png" alt="Diagrama da aplicação" />
+Valoriza é uma plataforma para promover o reconhecimento entre companheiros de equipe.
 
 ## 🚀 Como executar
 
 - Clone o repositório
-- Instale as dependências com `yarn`
-- Inicie o servidor com `yarn dev`
+- Rode `yarn` para baixar as dependências
+- Rode `yarn typeorm migration:run` para criar as tabelas do banco de dados.
+- Rode o `yarn dev` para iniciar a aplicação.
 
-A aplicação pode ser acessada em [`localhost:3000`](http://localhost:3333).
+Por fim, a aplicação estará disponível em `http://localhost:3000`
 
 ## 📄 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+Feito com 💜 &nbsp;by Rocketseat 👋🏻 &nbsp;[Participe da nossa comunidade!](https://discord.gg/gKUVrzrPrU)
