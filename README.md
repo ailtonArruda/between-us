@@ -10,7 +10,7 @@
   <img alt="Preview" src="./.github/preview.png">
 </p>
 
-## ✨ Tecnologias
+## Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -19,11 +19,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Express](https://expressjs.com/pt-br/)
 - [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)
 
-## 💻 Projeto
+## Projeto
 
 Valoriza é uma plataforma para promover o reconhecimento entre companheiros de equipe.
 
-## 🚀 Como executar
+## Como executar
 
 - Clone o repositório
 - Rode `yarn` para baixar as dependências
@@ -32,9 +32,6 @@ Valoriza é uma plataforma para promover o reconhecimento entre companheiros de 
 
 Por fim, a aplicação estará disponível em `http://localhost:3000`
 
-## 📄 Licença
+## Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
----
-Feito com 💜 &nbsp;by Rocketseat 👋🏻 &nbsp;[Participe da nossa comunidade!](https://discord.gg/gKUVrzrPrU)
