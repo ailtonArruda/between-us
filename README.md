@@ -34,4 +34,4 @@ The application will be available at `http://localhost:3000`
 
 ## License
 
-This project is under the MIT license. See the [LICENSE](LICENSE.md) for more details.
+This project is under the MIT license. See the ![LICENSE](LICENSE.md) for more details.
