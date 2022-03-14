@@ -10,28 +10,28 @@
   <img alt="Preview" src="./.github/preview.png">
 </p>
 
-## Tecnologias
+## Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - [Node.js](https://nodejs.org/en/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/)
 - [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)
 
-## Projeto
+## Project
 
-Valoriza é uma plataforma para promover o reconhecimento entre companheiros de equipe.
+This is a project with the objective of promoting the exchange of messages between people.
 
-## Como executar
+## How to run
 
-- Clone o repositório
-- Rode `yarn` para baixar as dependências
-- Rode `yarn typeorm migration:run` para criar as tabelas do banco de dados.
-- Rode o `yarn dev` para iniciar a aplicação.
+- Clone the repository
+- Run `yarn` to download dependencies
+- Run `yarn typeorm migration:run` to create the database tables.
+- Run `yarn dev` to start the application.
 
-Por fim, a aplicação estará disponível em `http://localhost:3000`
+The application will be available at `http://localhost:3000`
 
-## Licença
+## License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under the MIT license. See the [LICENSE](LICENSE.md) for more details.
