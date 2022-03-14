@@ -3,9 +3,11 @@ import "express-async-errors";
 import "reflect-metadata";
 import { router } from "./routes";
 import "./database";
+import cors from "cors";
 
 
 const app = express();
+app.use(cors());
 
 app.use(express.json());
 
